@@ -17,7 +17,7 @@ title: Mario Zamora
 email: tech@mariozamora.co
 description: >- # this means to ignore newlines until "baseurl:"
   Go ahead and do what you want, when you want and however the hell you want too under the WTFPL.
-baseurl: "blog" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: Mario_Zamora_Co
 github_username:  maczamora
