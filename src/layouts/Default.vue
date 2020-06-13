@@ -7,6 +7,8 @@
       <nav class="nav">
         <g-link class="nav__link" to="/">Home</g-link>
         <g-link class="nav__link" to="/about/">About</g-link>
+        <g-link class="nav__link" to="/blog/">Blog</g-link>
+        <g-link class="nav__link" to="/contact/">Contact</g-link>
       </nav>
     </header>
     <slot/>
@@ -42,9 +44,10 @@ body {
   align-items: center;
   margin-bottom: 20px;
   height: 80px;
-}
+} 
 
 .nav__link {
-  margin-left: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 </style>
