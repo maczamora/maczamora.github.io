@@ -5,6 +5,8 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-  siteName: 'Gridsome',
+  siteName: 'Cyber Cowboy',
+  // siteUrl: https://www.cybercowboy.tech
+  siteDescription: 'Dedicated blog to deliver content surrounding DevOps, DevSecOps, Cyberecurity and anything and everything around Linux',
   plugins: []
 }
