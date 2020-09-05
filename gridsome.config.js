@@ -6,8 +6,8 @@
 
 module.exports = {
   siteName: 'Cyber Cowboy',
-  siteUrl: 'https://maczamora>.github.io',
-  pathPrefix: '/maczamora.github.io',
+  siteUrl: 'https://maczamora.github.io',
+  pathPrefix: '/cybercowboy',
   siteDescription: 'Dedicated blog to deliver content surrounding DevOps, DevSecOps, Cyberecurity and anything and everything around Linux',
   plugins: []
 }
