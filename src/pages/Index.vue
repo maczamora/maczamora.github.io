@@ -2,39 +2,35 @@
   <Layout>
 
     <!-- Learn how to use images here: https://gridsome.org/docs/images -->
-    <g-image alt="Example image" src="~/favicon.png" width="135" />
+    <!-- <g-image alt="Example image" src="~/favicon.png" width="135" /> -->
 
-    <h1>Welcome to the Cyber Cowboy blog</h1>
+<div class="page-container">
+  <div class="top-container">
+      <h1>Under Construction</h1>
+  </div>
 
-    <p class="blog-info">
-      The Cyber Cowboy Blog embodies the same values and work ethic described by the Professional Bull Riding Association - Be Cowboy.
+  <div class="content-container">
+    <p class="about-info">
+      Hi my name is Mario, I'm a full time IT Software Engineer working on Smarter-IT initiaitives, automation and building scalable, reliable, bug free software at Keysight Technologies.
     </p>
-
-    <p class="blog-info">
-      My name is Mario, and I'm the Cyber Cowboy. I welcome you to the Cyber Cowboy Blog and hope you enjoy the content that I post.
-
-      I've never been extroverted to deliver external content to the Internet and I'm not the quickest to get code right out the door to my Github profile.
+    <p class="about-info">
+       I'm a CIS (Computer Information Systems) under-graduate from CSU-Pueblo 🐺 with an emphais in Cybersecurity.
     </p>
-      
-    <p class="blog-info">
-      I am passionate about Technology, Cybersecurity and Coding and that's why I decided to deliver this blog in a format that could enhance my skills and teach the world the ins and outs of the digital and cyber landscape. 
-
-      I look forward to each of you reading my content and hope you enjoy what you find. 
+    <p class="about-info">
+       I am looking to start contributing more to the open-source space, starting new personal projects (hacker status), build and lead a business (aspiring entrepreneur) and growing both in my technical and business confidence. 
     </p>
-      
-    <p class="blog-info">
-      Cheers! 
-    </p>
-
-    <p class="blog-info">
-      Cyber Cowboy 
-    </p>
-      
-
-    <p class="home-links">
+  </div>
+  
+  <div class="bottom-container">
+    <section class="contact-info">
+      Please feel free to reach out to me via email if you would like to collaborate on a project or if you have any questions and need some consultative work. If not go ahead and scroll to the bottom and give the Twitter a follow or reach out to me via the social sites below.
+    </section>
+    <footer class="social-links">
       <a href="https://gridsome.org/docs/" target="_blank" rel="noopener">Gridsome Docs</a>
       <a href="https://github.com/gridsome/gridsome" target="_blank" rel="noopener">GitHub</a>
-    </p>
+    </footer>
+  </div>
+</div>
 
   </Layout>
 </template>
@@ -42,17 +38,29 @@
 <script>
 export default {
   metaInfo: {
-    title: 'Cyber Cowboy'
+    title: 'Mario Zamora'
   }
 }
 </script>
 
 <style>
-.home-links a {
-  margin-right: 1rem;
-}
 
-.blog-info {
+.about-info {
   text-align: center;
 }
+
+
+.contact-info{
+  text-align: center;
+}
+
+.social-links {
+  position: absolute;
+  bottom: 0;
+  width: 100;
+  height: 2.5rem;
+  margin-right: 1rem;
+  margin-bottom: 5rem;
+}
+
 </style>
