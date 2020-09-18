@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[3],{"8tYL":function(t,e,n){"use strict";n.r(e);var l={metaInfo:{title:"Blog"}},s=n("KHd+"),i=Object(s.a)(l,(function(){var t=this.$createElement,e=this._self._c||t;return e("Layout",[e("h1",[this._v("Blog")]),e("p",[this._v("This is the blog page.")])])}),[],!1,null,null,null);e.default=i.exports}}]);
