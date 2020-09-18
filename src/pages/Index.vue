@@ -25,9 +25,9 @@
     <section class="contact-info">
       Please feel free to reach out to me via email if you would like to collaborate on a project or if you have any questions and need some consultative work. If not go ahead and scroll to the bottom and give the Twitter a follow or reach out to me via the social sites below.
     </section>
-    <footer class="social-links">
-      <a href="https://gridsome.org/docs/" target="_blank" rel="noopener">Gridsome Docs</a>
-      <a href="https://github.com/gridsome/gridsome" target="_blank" rel="noopener">GitHub</a>
+    <footer class="footer">
+      <a href="https://github.com/maczamora" target="_blank" rel="noopener"><font-awesome :icon="['fab', 'github']"/></a>
+      <a href="https://twitter.com/Mario_Zamora_Co" target="_blank" rel="noopener"><font-awesome :icon="['fab', 'twitter']" width="10"/></a>
     </footer>
   </div>
 </div>
@@ -41,25 +41,38 @@ export default {
     title: 'Mario Zamora'
   }
 }
+
 </script>
 
 <style>
+
+.top-container{
+  text-align: center;
+}
 
 .about-info {
   text-align: center;
 }
 
-
 .contact-info{
   text-align: center;
+
 }
 
-.social-links {
+.footer {
   position: absolute;
   bottom: 0;
-  width: 100;
+  width: 100%;
   height: 2.5rem;
   margin-right: 1rem;
+  margin-bottom: 5rem;
+}
+
+.footer a { 
+  color: black;
+  font-size: 5rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
   margin-bottom: 5rem;
 }
 
