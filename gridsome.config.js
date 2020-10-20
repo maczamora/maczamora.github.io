@@ -20,7 +20,7 @@ module.exports = {
   },
   plugins: [
     {
-      use: '@gridosome/source-filesystem',
+      use: '@gridsome/source-filesystem',
       options: {
         path: 'posts/**/*.md',
         typeName: 'Post',
