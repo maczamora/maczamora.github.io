@@ -26,8 +26,6 @@
       Please feel free to reach out to me via email if you would like to collaborate on a project or if you have any questions and need some consultative work. If not go ahead and scroll to the bottom and give the Twitter a follow or reach out to me via the social sites below.
     </section>
     <footer class="footer">
-      <a href="https://github.com/maczamora" target="_blank" rel="noopener"><font-awesome :icon="['fab', 'github']"/></a>
-      <a href="https://twitter.com/Mario_Zamora_Co" target="_blank" rel="noopener"><font-awesome :icon="['fab', 'twitter']" width="10"/></a>
     </footer>
   </div>
 </div>
