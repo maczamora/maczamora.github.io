@@ -33,6 +33,7 @@
 
   <button type="submit">Submit form</button>
 </form>
+<footer-layout></footer-layout>
 </Layout>
 </template>
 

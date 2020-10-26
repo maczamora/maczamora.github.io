@@ -7,6 +7,7 @@
         {{ post.node.title }}
       </g-link>
     </p>
+    <footer-layout></footer-layout>
   </Layout>
 </template>
 

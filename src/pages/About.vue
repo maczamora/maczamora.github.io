@@ -25,5 +25,6 @@
     </footer>
   </div>
 </div>
-    </Layout>
+<footer-layout></footer-layout>
+</Layout>
 </template>
