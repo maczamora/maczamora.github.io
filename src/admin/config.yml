@@ -2,13 +2,13 @@ backend:
     name: github
     repo: maczamora/maczamora.github.io
   
-  media_folder: "static/uploads"
-  public_folder: "/uploads"
+media_folder: "static/uploads"
+public_folder: "/uploads"
   
-  collections:
+collections:
     - name: "posts"
       label: "Posts"
-      folder: "posts"
+      folder: "static/posts"
       create: true
       slug: "{{slug}}"
       fields:
