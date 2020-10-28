@@ -1,6 +1,9 @@
 <template>
-<Layout>
-<div class="page-container">
+<body class="about-page">
+<header-layout>
+
+</header-layout>
+
   <div class="top-container">
       <h1>Who I am not who you imagine me to be</h1>
   </div>
@@ -44,7 +47,6 @@
     <footer class="footer">
     </footer>
   </div>
-</div>
 <footer-layout></footer-layout>
-</Layout>
+</body>
 </template>

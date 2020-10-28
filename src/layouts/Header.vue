@@ -1,5 +1,5 @@
 <template>
-  <div class="layout">
+  <div class="header-layout">
     <header class="header">
       <strong>
         <!-- <g-link to="/">{{ $static.metadata.siteName }}</g-link> -->
@@ -31,11 +31,8 @@ body {
   line-height: 1.5;
 }
 
-.layout {
-  max-width: 760px;
-  margin: 0 auto;
-  padding-left: 20px;
-  padding-right: 20px;
+.header-layout {
+  max-width: 100%;
 }
 
 .header {
@@ -44,6 +41,7 @@ body {
   align-items: center;
   margin-bottom: 20px;
   height: 80px;
+  background-color: black;
 } 
 
 .nav__link {

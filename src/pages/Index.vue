@@ -1,10 +1,11 @@
 <template>
-  <Layout>
+<body class=index-page>
+  <header-layout>
     <!-- Learn how to use images here: https://gridsome.org/docs/images -->
     <!-- <g-image alt="Example image" src="~/favicon.png" width="135" /> -->
-    <div class="page-container">
-      <div class="top-container">
-        <h1>Under Construction</h1>
+  </header-Layout>
+  <div class="main-content">
+        <h1 class="primary-heading">Under Construction</h1>
       </div>
 
       <div class="content-container">
@@ -21,11 +22,11 @@
           Please feel free to explore my personal website and blog and hope you enjoy your time.
         </p>
       </div>
-    </div>
     <footer-layout></footer-layout>
-  </Layout>
+</body>
 </template>
 
+<footer-layout></footer-layout>
 <script>
 export default {
   metaInfo: {
@@ -36,6 +37,10 @@ export default {
 </script>
 
 <style>
+
+.primary-heading{
+  text-align: center;
+}
 
 .top-container{
   text-align: center;

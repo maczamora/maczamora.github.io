@@ -1,5 +1,8 @@
 <template>
-<Layout>
+<body class="contact-page">
+<header-layout>
+  
+</header-layout>
     <h1>Contact</h1>
     <form
   name="contact"
@@ -34,7 +37,7 @@
   <button type="submit">Submit form</button>
 </form>
 <footer-layout></footer-layout>
-</Layout>
+</body>
 </template>
 
 <script>
