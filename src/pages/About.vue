@@ -39,13 +39,9 @@
       <p class="career-info">
         I am looking to start contributing more to the open-source space, starting new personal projects (hacker status), build and lead a business (aspiring entrepreneur) and growing both in my technical and business confidence.
       </p>
-  </div>
-  <div class="bottom-container">
-    <section class="contact-info">
-      Please feel free to reach out to me via email if you would like to collaborate on a project or if you have any questions and need some consultative work. If not go ahead and scroll to the bottom and give the Twitter a follow or reach out to me via the social sites below.
-    </section>
-    <footer class="footer">
-    </footer>
+      <p class="career-info">
+        Please feel free to reach out to me via email if you would like to collaborate on a project or if you have any questions and need some consultative work. If not go ahead and scroll to the bottom and give the Twitter a follow or reach out to me via the social sites below.
+      </p>
   </div>
 <footer-layout></footer-layout>
 </body>

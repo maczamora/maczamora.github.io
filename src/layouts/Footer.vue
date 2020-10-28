@@ -1,7 +1,6 @@
 <template>
   <div class="footer-layout">
     <footer class="footer">
-      <div class="footer-section">
         <b-container class=footer-copypright>
             <b-row>
                 <b-col>
@@ -9,7 +8,6 @@
                 </b-col>
             </b-row>
         </b-container>
-      </div>
     </footer>
     <slot/>
   </div>
@@ -32,6 +30,7 @@
   align-items: center;
   margin-bottom: 20px;
   height: 80px;
+  text-align: center;
   background-color: black;
 } 
 
