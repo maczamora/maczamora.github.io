@@ -31,7 +31,7 @@
   margin-bottom: 20px;
   height: 80px;
   text-align: center;
-  background-color: black;
+  background-color: #3cc47c;
 } 
 
 </style>

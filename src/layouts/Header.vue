@@ -41,7 +41,7 @@ body {
   align-items: center;
   margin-bottom: 20px;
   height: 80px;
-  background-color: black;
+  background-color: #3cc47c;
 } 
 
 .nav__link {

@@ -4,8 +4,13 @@
     <!-- Learn how to use images here: https://gridsome.org/docs/images -->
     <!-- <g-image alt="Example image" src="~/favicon.png" width="135" /> -->
   </header-Layout>
+  <div>
+  <b-jumbotron header="Under Construction" lead="The website and blog are not complete!!!">
+    <p>For more information or if you would like to contact me please submit a message from the contact page</p>
+  </b-jumbotron>
+</div>
   <div class="main-content">
-        <h1 class="primary-heading">Under Construction</h1>
+        <h1 class="primary-heading"></h1>
       </div>
 
       <div class="content-container">
