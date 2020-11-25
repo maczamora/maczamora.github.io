@@ -1,57 +1,52 @@
 <template>
-<body class=index-page>
-  <header-layout>
-    <!-- Learn how to use images here: https://gridsome.org/docs/images -->
-    <!-- <g-image alt="Example image" src="~/favicon.png" width="135" /> -->
-  </header-Layout>
-  <div>
-  <b-jumbotron header="Under Construction" lead="The website and blog are not complete!!!">
-    <p>For more information or if you would like to contact me please submit a message from the contact page</p>
-  </b-jumbotron>
-</div>
-  <div class="main-content">
-        <h1 class="primary-heading"></h1>
-      </div>
+  <div class="index">
+    <header-layout>
+      <!-- Learn how to use images here: https://gridsome.org/docs/images -->
+      <!-- <g-image alt="Example image" src="~/favicon.png" width="135" /> -->
+      <!-- Use gopher image in the Header-->
+    </header-layout>
+    <div class="jumbotron">
+      <b-jumbotron header="Mario Zamora - Engineered Hustle" lead="Full time IT Software Engineer working on Smarter-IT initiaitives,
+        automation and building scalable, reliable, bug free software at
+        Keysight Technologies.">
+        <p>
+          For more information or if you would like to contact me please submit
+          a message from the contact page. Please feel free to explore my personal website and blog and hope you
+          enjoy your time here.
+        </p>
+      </b-jumbotron>
+    </div>
+    <div class="main-content">
+      <h1 class="primary-heading"></h1>
+    </div>
 
-      <div class="content-container">
-        <p class="about-info">
-          Hello! My name is Mario
-        </p>
-        <p class="about-info">
-          I'm a full time IT Software Engineer working on Smarter-IT initiaitives, automation and building scalable, reliable, bug free software at Keysight Technologies.
-        </p>
-        <p class="about-info">
-          In addtion to that, I'm a husband to my beautiful Wife Elizabeth, Dog Dad to Yoda the Yorkie Poodle, eldest of three, and Coloradan by nature not by choice. 
-        </p>
-        <p class="about-info">
-          Please feel free to explore my personal website and blog and hope you enjoy your time here.
-        </p>
-      </div>
+    <div class="content-container">
+      <p class="about-info">
+      </p>
+    </div>
     <footer-layout></footer-layout>
-</body>
+  </div>
 </template>
 
 <footer-layout></footer-layout>
 <script>
 export default {
   metaInfo: {
-    title: 'Mario Zamora'
-  }
-}
-
+    title: "Mario Zamora",
+  },
+};
 </script>
 
 <style>
-
-.index-page {
-  background-color: #60656F;
+.index {
+  background-color: #60656f;
 }
 
-.primary-heading{
+.primary-heading {
   text-align: center;
 }
 
-.top-container{
+.top-container {
   text-align: center;
 }
 
@@ -61,9 +56,8 @@ export default {
   color: #131200;
 }
 
-.contact-info{
+.contact-info {
   text-align: center;
-
 }
 
 /* .footer {
@@ -82,5 +76,4 @@ export default {
   margin-right: 2rem;
   margin-bottom: 5rem;
 } */
-
 </style>
