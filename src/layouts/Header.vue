@@ -24,6 +24,7 @@ query {
 </static-query>
 
 <style>
+
 body {
   font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
   margin:0;
@@ -39,13 +40,14 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
   height: 80px;
-  background-color: #3cc47c;
+  background-color: #5BC0BE;
 } 
 
 .nav__link {
   margin-left: 10px;
   margin-right: 10px;
+  color: #131200;
 }
 </style>

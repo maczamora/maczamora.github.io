@@ -21,7 +21,7 @@
 
 }
 .copyright-text{
-  color: white;
+  color: #131200;
 }
 
 .footer {
@@ -31,7 +31,7 @@
   margin-bottom: 20px;
   height: 80px;
   text-align: center;
-  background-color: #3cc47c;
+  background-color: #5BC0BE;
 } 
 
 </style>

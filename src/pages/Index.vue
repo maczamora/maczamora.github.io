@@ -43,6 +43,10 @@ export default {
 
 <style>
 
+.index-page {
+  background-color: #60656F;
+}
+
 .primary-heading{
   text-align: center;
 }
@@ -54,6 +58,7 @@ export default {
 .about-info {
   text-align: center;
   font-size: x-large;
+  color: #131200;
 }
 
 .contact-info{
