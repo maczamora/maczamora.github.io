@@ -24,7 +24,7 @@
           In addtion to that, I'm a husband to my beautiful Wife Elizabeth, Dog Dad to Yoda the Yorkie Poodle, eldest of three, and Coloradan by nature not by choice. 
         </p>
         <p class="about-info">
-          Please feel free to explore my personal website and blog and hope you enjoy your time.
+          Please feel free to explore my personal website and blog and hope you enjoy your time here.
         </p>
       </div>
     <footer-layout></footer-layout>
@@ -53,6 +53,7 @@ export default {
 
 .about-info {
   text-align: center;
+  font-size: x-large;
 }
 
 .contact-info{
