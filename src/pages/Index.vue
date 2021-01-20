@@ -6,7 +6,7 @@
       <!-- Use gopher image in the Header-->
     </header-layout>
     <div class="jumbotron">
-      <b-jumbotron header="Mario Zamora - Engineered Hustle" lead="Full time IT Software Engineer working on Smarter-IT initiaitives,
+      <b-jumbotron header="Engineered for Hustle" lead="Full time IT Software Engineer working on Smarter-IT initiaitives,
         automation and building scalable, reliable, bug free software at
         Keysight Technologies.">
         <p>
@@ -16,19 +16,48 @@
         </p>
       </b-jumbotron>
     </div>
-    <div class="main-content">
-      <h1 class="primary-heading"></h1>
-    </div>
-
-    <div class="content-container">
-      <p class="about-info">
-      </p>
-    </div>
+    <b-container class="main-container">
+      <b-row class="pb-5">
+        <b-col></b-col>
+        <b-col cols="10">As you begin your journey into my website and personal blog I hope you find your time valueable.</b-col>
+        <b-col></b-col>
+      </b-row>
+      <b-row class="pb-5 pt-5">
+        <b-col></b-col>
+        <b-col cols="10">My Mission, provide reliable and valueable content while building a consumer base that utilizes what I publish and looks to me as their first choice for consulting.</b-col>
+        <b-col></b-col>
+      </b-row>
+      <b-row class="pb-5 pt-5">
+        <b-col></b-col>
+        <b-col cols="10">I'm also building a brand and a business, if you have a need for technical consulting let me provide that to you. First hour will be offered pro-bono with each additional hour at a given rate. See below for areas of knowledge.</b-col>
+        <b-col></b-col>
+      </b-row>
+      <b-row class="pb-5 pt-5">
+        <b-col></b-col>
+        <b-col cols="10">
+          <p class=font-weight-bold>Skills and Knowledge</p>
+          <ul>
+            <li>Cybersecurity</li>
+            <li>DevOps</li>
+            <li>Networking</li>
+            <li>Kali Linux</li>
+            <li>Ansible</li>
+            <li>AWS</li>
+            <li>Digital Lifestyle</li>
+          </ul>
+        </b-col>
+        <b-col></b-col>
+      </b-row>
+      <b-row class="pb-5 pt-5">
+        <b-col></b-col>
+        <b-col cols="10">Image Here!</b-col>
+        <b-col></b-col>
+      </b-row>
+    </b-container>
     <footer-layout></footer-layout>
   </div>
 </template>
 
-<footer-layout></footer-layout>
 <script>
 export default {
   metaInfo: {
@@ -39,41 +68,13 @@ export default {
 
 <style>
 .index {
-  background-color: #60656f;
+  background-color: #0d0d0e;
+  color: white;
 }
 
-.primary-heading {
+.jumbotron { 
   text-align: center;
+  background-color: #0d0d0e; 
 }
 
-.top-container {
-  text-align: center;
-}
-
-.about-info {
-  text-align: center;
-  font-size: x-large;
-  color: #131200;
-}
-
-.contact-info {
-  text-align: center;
-}
-
-/* .footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 2.5rem;
-  margin-right: 1rem;
-  margin-bottom: 5rem;
-} */
-
-/* .footer a { 
-  color: black;
-  font-size: 5rem;
-  margin-left: 2rem;
-  margin-right: 2rem;
-  margin-bottom: 5rem;
-} */
 </style>
