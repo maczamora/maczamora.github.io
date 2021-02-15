@@ -4,7 +4,7 @@
         <b-container class=footer-copypright>
             <b-row>
                 <b-col>
-                    <p class=copyright-text>&copy; 2020, Mario Zamora, Powered by <a href="https://gridsome.org/">Gridsome v0.7.21</a></p>
+                    <p class=copyright-text>&copy; 2020, Capshure, Powered by <a href="https://gridsome.org/">Gridsome v0.7.23</a></p>
                 </b-col>
             </b-row>
         </b-container>
@@ -31,7 +31,7 @@
   margin-bottom: 20px;
   height: 80px;
   text-align: center;
-  background-color: #5BC0BE;
+  background-color: #823038;
 } 
 
 </style>

@@ -24,14 +24,14 @@
       <b-row class="pb-5 pt-5">
         <b-col></b-col>
         <b-col cols="10"> During this program I rotated between different areas within IT including Security Operations, Compliance, Infrastructure and Customer Applications. The initial plan of the program
-      was for those in the cohort to go they're separate ways into a specific area of interest with the IT organization. Those plans were changes, as the 2019 cohort and 2018 cohort were 
-      asked to create the IT Agile Center of Excellence and deliver valueable software products using Agile practices.</b-col>
+      was for those in the cohort to go they're separate ways into a specific area of interest with the IT Organization. It was decided the 2019 cohort and 2018 cohort would combine and were
+      asked to create the IT Agile Center of Excellence to deliver valueable software products using Agile values and principles using the Scrum methodology.</b-col>
         <b-col></b-col>
       </b-row>
       <b-row class="pb-5 pt-5">
         <b-col></b-col>
-        <b-col cols="10">It has been a journey as I've transtioned more into a software role and it has been both challenging and rewarding. I've gained a set of new skills and keep growing and learning every day.
-       I've gotten to work on both successful and not so successful software products and services and learn the ins and outs of working on a Agile Software Team. </b-col>
+        <b-col cols="10">It has been a journey as I've transtioned into a software role but it's  been both challenging and rewarding at the same time. I've gained a set of new skills and keep growing and learning every day.
+       I've gotten to work on both successful and not so successful software products. Along the way I've picked up the ins and outs of working on a Agile Software Delivery Team. </b-col>
         <b-col></b-col>
       </b-row>
        <b-row class="pb-5 pt-5">
@@ -42,7 +42,7 @@
       </b-row>
        <b-row class="pb-5 pt-5">
         <b-col></b-col>
-        <b-col cols="10">I enjoy all kinds of music, wearnig cowboy boots, drinking coffee and hanging out with the family and close friends. I'm starting this blog to share ideas, thoughts and content surrounding not only my career but to gain an audience and customer base for future growth. 
+        <b-col cols="10">I enjoy all kinds of music, wearing cowboy boots, drinking coffee and hanging out with the family and close friends. I'm starting this blog to share ideas, thoughts and content surrounding not only my career but to gain an audience and customer base for future growth. 
           In addition to this I'm intertwining my business and conlsulting firm which I hope to expand into a product and services company in the near future.</b-col>
         <b-col></b-col>
       </b-row>
@@ -75,13 +75,8 @@
 
 <style>
 .about {
-  background-color: #0d0d0e;
+  background-color: #08080d;
   color: white;
-}
-
-.jumbotron { 
-  text-align: center;
-  background-color: #0d0d0e; 
 }
 
 </style>

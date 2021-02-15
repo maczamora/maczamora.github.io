@@ -42,7 +42,7 @@ body {
   align-items: center;
   /* margin-bottom: 20px; */
   height: 80px;
-  background-color: #5BC0BE;
+  background-color: #823038;
 } 
 
 .nav__link {
