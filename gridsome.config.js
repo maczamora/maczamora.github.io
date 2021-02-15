@@ -8,5 +8,37 @@ module.exports = {
   siteName: 'Mario Zamora Blog',
   siteUrl: 'https://maczamora.github.io',
   siteDescription: 'Dedicated blog to deliver content surrounding the following topics: Software Development and Engineering, DevOps, DevSecOps, Cyberecurity and anything and everything around Linux',
-  plugins: []
+  transformers: {
+    remark: {
+      externalLinksTarget: '_blank',
+      externalLinksRel: ['nofollow', 'noopener', 'noreferrer'],
+      anchorClassName: 'icon icon-link',
+      plugins: [
+        // global plugins go here!!!
+      ]
+    }
+  },
+  plugins: [
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
+        path: 'blog/**/*.md',
+        typeName: 'Post',
+        remark: {
+          plugins: [
+            // local plugins go here!!!
+          ]
+        }
+      }
+    },
+    {
+      use: 'gridsome-plugin-netlify-cms',
+      options: {
+        publicPath: '/admin'
+      }
+    },
+  ],
+  templates: {
+    Post: '/blog/:title'
+  } 
 }
