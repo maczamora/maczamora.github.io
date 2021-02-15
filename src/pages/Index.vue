@@ -2,7 +2,7 @@
   <div class="index">
     <header-layout>
       <div>
-        <b-img src="~/assets/img/Capshure-Sec.png" fluid alt="Responsive image"></b-img>
+        <!-- <b-img src="~/assets/img/Capshure-Sec.png" fluid alt="Responsive image"></b-img> -->
       </div>
     </header-layout>
     <div class="jumbotron border border-top-0 border-white">
@@ -52,7 +52,7 @@
       </b-row>
       <b-row class="pb-1 pt-5">
         <b-col></b-col>
-        <b-col cols="12"><b-img-lazy v-bind="imageProps" rounded src="static/safar-safarov-LKsHwgzyk7c-unsplash.jpg" fluid alt="Responsive image"></b-img-lazy></b-col>
+        <b-col cols="12"><b-img-lazy v-bind="imageProps" rounded src="~/safar-safarov-LKsHwgzyk7c-unsplash.jpg" fluid alt="Responsive image"></b-img-lazy></b-col>
         <b-col></b-col>
       </b-row>
     </b-container>
