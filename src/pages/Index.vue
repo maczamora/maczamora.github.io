@@ -12,7 +12,7 @@
           a message from the contact page. Please feel free to explore the website and we hope you
           enjoy your time here.
         </p>
-        <g-image class="logo" alt="Website Logo" src="~/Capshure-Sec-v1.5.png" width="500" height="500" fit="outside"/>
+        <g-image class="logo" alt="Website Logo" src="~/Capshure-Sec-v1.6.png" width="500" height="500" fit="outside"/>
       </b-jumbotron>
     </div>
     <b-container class="main-container">
