@@ -6,7 +6,7 @@
         <g-image class="logo" src="~/Capshure-Sec-v1.6.png" alt="Responsive Logo"/>
       </div>
       <strong>
-        <!-- <g-link to="/">{{ $static.metadata.siteName }}</g-link> -->
+        <g-link class="number" to="/">{{ $static.metadata.siteName }}</g-link>
       </strong>
       <b-image class="logo" src="~/Capshure-Sec-v1.6.png" fluid alt="Responsive Logo"></b-image>
       <b-nav pills class="nav">
@@ -40,26 +40,41 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-    max-width: 100%;
-  /* margin-bottom: 20px; */
-  height: 80px;
+  max-width: 100%;
+  height: 125px;
   background-color: #ACBCBD;
 } 
+
+.nav{
+  position: absolute; top: 45px; right: 250px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 0 auto;
+  display: block; 
+}
 
 .nav__link {
   margin-left: 10px;
   margin-right: 10px;
-  color: #7435F2;
+}
+
+.number {
+  position: absolute; top: 55px; right: 700px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 0 auto;
+  display: block; 
+  color: #7435F2
 }
 
 .logo{
-float: left;
+position: absolute; top: 0px; left: 250px;
+background-repeat: no-repeat;
+background-size: contain;
+margin: 0 auto;
 display: block; 
-margin-left: auto; 
-width:250px;
-height: 50px;
-height: auto; 
+width: 130px;
+height: 125px; 
 }
 
 

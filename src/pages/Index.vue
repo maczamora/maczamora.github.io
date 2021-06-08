@@ -17,10 +17,14 @@ import video from 'src\pexels-mikhail-nilov-7534239.mp4'
     </div>
     <div>
           <b-embed
-            type="embed"
-            aspect="16by9"
+            type="video"
             src="pexels-mikhail-nilov-7534239.mp4"
             allowfullscreen
+            allow=autoplay 
+            autoplay=1
+            autopause=0
+            muted
+            loop=1
           ></b-embed>
         </div>
     <b-container class="main-container">
@@ -87,6 +91,7 @@ export default {
 .jumbotron { 
   text-align: center;
   background-color: #BE27CF; 
+  color: #2B2129
 }
 
 li {

@@ -5,7 +5,7 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-  siteName: 'Mario Zamora Blog',
+  siteName: 'Something to Report? Call XXX-XXX-XXXX',
   siteUrl: 'https://maczamora.github.io',
   siteDescription: 'Dedicated blog to deliver content surrounding the following topics: Software Development and Engineering, DevOps, DevSecOps, Cyberecurity and anything and everything around Linux',
   transformers: {
