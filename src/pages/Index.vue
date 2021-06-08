@@ -1,40 +1,48 @@
+import video from 'src\pexels-mikhail-nilov-7534239.mp4'
+
 <template>
   <div class="index">
     <header-layout>
     </header-layout>
     <div class="jumbotron">
-      <b-jumbotron header="Capshure" lead="Full time IT Software Engineer working on Smarter-IT initiaitives,
-        automation and building scalable, reliable, bug free Software products.">
-        <hr>
+      <b-jumbotron header="Counter Comms" lead="Full time IT Software Engineer working on Smarter-IT initiaitives,
+        automation and building scalable, reliable, bug free Software products with a background in Cybersecurity Defense designated by the NSA and The Department of Homeland Security">
         <hr>
         <p>
           For more information or if you would like to contact me please submit
           a message from the contact page. Please feel free to explore the website and we hope you
           enjoy your time here.
         </p>
-        <g-image class="logo" alt="Website Logo" src="~/Capshure-Sec-v1.6.png" width="500" height="500" fit="outside"/>
       </b-jumbotron>
     </div>
+    <div>
+          <b-embed
+            type="embed"
+            aspect="16by9"
+            src="pexels-mikhail-nilov-7534239.mp4"
+            allowfullscreen
+          ></b-embed>
+        </div>
     <b-container class="main-container">
       <b-row class="pb-5 pt-5">
         <b-col></b-col>
-        <b-col cols="10">Welcome! Thank you for visiting Capshure Consulting Firm. As you begin your journey into this company website and personal blog I hope you find your time valueable.</b-col>
+        <b-col cols="10">Welcome! Thank you for visiting Counter Comms. As you begin your journey into this company website and personal blog I hope you find your time valueable.</b-col>
         <b-col></b-col>
       </b-row>
       <b-row class="pb-5 pt-5">
         <b-col></b-col>
-        <b-col cols="10">Our Mission, provide reliable services and bring awareness to the subject of cybersecurity in order to defend and protect our clients assets.</b-col>
+        <b-col cols="10">Our Mission, provide reliable services and products while increasing the awareness to Cybersecurity through expert research in order to defend and protect our clients and their assets. Our moto at Counter Comms, "No business left behind".</b-col>
         <b-col></b-col>
       </b-row>
       <b-row class="pb-5 pt-5">
         <b-col></b-col>
-        <b-col cols="10">This is not only a consulting firm and business but also a brand, overtime please support this business by looking into some of our brand affilicated gear. COMING SOON!</b-col>
+        <b-col cols="10">Please take a look at some of our service offerings for more information. If you would like to get in contact we offer a free 1 hour virtual or in person consult. Due to COVID-19, virtual face to face consult is also available.</b-col>
         <b-col></b-col>
       </b-row>
       <b-row class="pb-5 pt-5">
         <b-col></b-col>
         <b-col cols="10">
-          <p class=font-weight-bold>Skills and Knowledge</p>
+          <p class=font-weight-bold>Technical Skills and Knowledge</p>
           <ul>
             <li>Cybersecurity</li>
             <li>DevOps</li>
@@ -42,7 +50,7 @@
             <li>Linux and Windows</li>
             <li>Automation</li>
             <li>Software Development</li>
-            <li>AWS</li>
+            <li>Cloud - AWS</li>
           </ul>
         </b-col>
         <b-col></b-col>
@@ -72,16 +80,16 @@ export default {
 
 <style>
 .index {
-  background-color: #08080d;
-  color: white;
+  background-color: #2475f0;
+  color: #FFFFFF;
 }
 
 .jumbotron { 
   text-align: center;
-  background-color: #08080d; 
+  background-color: #BE27CF; 
 }
 
 li {
-  color: #D1B000;
+  color: #FFFFFF;
 }
 </style>

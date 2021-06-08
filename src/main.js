@@ -10,6 +10,7 @@ import '@fortawesome/fontawesome-svg-core/styles.css'
 import BootstrapVue from 'bootstrap-vue'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
+import { BEmbed } from 'bootstrap-vue'
 
 
 
@@ -22,4 +23,5 @@ export default function (Vue, { router, head, isClient }) {
   Vue.component('footer-layout', FooterLayout)
   Vue.component('font-awesome', FontAwesomeIcon)
   Vue.use(BootstrapVue)
+  Vue.component('b-embed', BEmbed)
 }

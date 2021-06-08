@@ -6,7 +6,7 @@
   <b-container class="top-container">
       <b-row class="pb-5 pt-5">
         <b-col></b-col>
-        <b-col cols="10"><h1>Who I am not who you imagine me to be</h1></b-col>
+        <b-col cols="10"><!--<h1>Meet the Team!</h1>--><b-jumbotron header="About US" lead="Meet the experts at Counter Comms"></b-jumbotron></b-col>
         <b-col></b-col>
       </b-row>
   </b-container>
@@ -75,8 +75,14 @@
 
 <style>
 .about {
-  background-color: #08080d;
+  background-color: #2475f0;
   color: white;
 }
+
+.jumbotron { 
+  text-align: center;
+  background-color: #BE27CF; 
+}
+
 
 </style>

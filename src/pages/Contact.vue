@@ -1,10 +1,17 @@
 <template>
 <body class="contact-page">
 <header-layout>
-  
 </header-layout>
-    <h1>Contact</h1>
-    <form
+<div class="contact">
+     <b-container class="top-container">
+      <b-row class="pb-5 pt-5">
+        <b-col></b-col>
+        <b-col cols="10"><!--<h1>Meet the Team!</h1>--><b-jumbotron header="Contact US" lead="Please submit a contact form if you would like to setup a free 1 hour consult"></b-jumbotron></b-col>
+        <b-col></b-col>
+      </b-row>
+  </b-container>
+    
+  <form
   name="contact"
   method="post"
   v-on:submit.prevent="handleSubmit"
@@ -36,9 +43,25 @@
 
   <button type="submit">Submit form</button>
 </form>
+
+</div>
 <footer-layout></footer-layout>
 </body>
 </template>
+
+<style>
+
+.contact {
+    background-color: #2475f0;
+  color: #FFFFFF;
+}
+
+.jumbotron { 
+  text-align: center;
+  background-color: #BE27CF; 
+}
+
+</style>
 
 <script>
 export default {
