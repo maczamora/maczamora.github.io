@@ -2,7 +2,7 @@
 <body class="services-page">
   <header-layout>
   </header-layout>
-    <div class="about">
+    <div class="services">
   <b-container class="top-container">
       <b-row class="pb-5 pt-5">
         <b-col></b-col>
