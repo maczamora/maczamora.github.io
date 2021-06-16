@@ -6,65 +6,97 @@
   <b-container class="top-container">
       <b-row class="pb-5 pt-5">
         <b-col></b-col>
-        <b-col cols="10"><!--<h1>Meet the Team!</h1>--><b-jumbotron header="About US" lead="Meet the experts at Counter Comms"></b-jumbotron></b-col>
+        <b-col cols="10"><!--<h1>Meet the Team!</h1>--><b-jumbotron header="About Our Team" lead="Meet the experts at Counter Comms"></b-jumbotron></b-col>
         <b-col></b-col>
       </b-row>
+      <b-row class="pb-5 pt-5">
+        <b-col></b-col>
+        <b-col></b-col>
+        <b-col></b-col>
+      </b-row>
+      
   </b-container>
-<b-container class="main-container">
+<b-container fluid class="main-container">
       <b-row class="pb-5 pt-5">
         <!-- <h4 class="career">Career Background</h4> -->
         <b-col></b-col>
-        <b-col cols="10"><h4 class="career">Career Background</h4>I graduated from CSU-Pueblo 🐺 wth a Bachelor's of Science in CIS (Computer Information Systems) with an emphais in Cybersecurity.
-     During my time in college I worked as a Helpdesk Support Technician for a company called <a href="https://www.surfboard.com/">ARRIS</a>, and as a Network
-     Admin Assistant for the Network and Server Systems department on campus. I got to participate in a campus network upgrade where I installed Wi-Fi Access Points and Switches suppported by 
-     a company called <a href="https://www.extremenetworks.com/">Extreme Networks.</a> You can say that I had my fair share and time in the trenches. After graduation I was blessed to have 
-     received a job offer from <a href="https://www.keysight.com/us/en/home.html">Keysight Technologies</a> as an IT Associate part of the first and last IT Rapid Rotation Program.</b-col>
+        <b-col>
+          <h1 class="heading">What is Counter Comms?</h1>
+        </b-col>
         <b-col></b-col>
       </b-row>
-      <b-row class="pb-5 pt-5">
+      <b-row class="pb-2 pt-2">
         <b-col></b-col>
-        <b-col cols="10"> During this program I rotated between different areas within IT including Security Operations, Compliance, Infrastructure and Customer Applications. The initial plan of the program
-      was for those in the cohort to go they're separate ways into a specific area of interest with the IT Organization. It was decided the 2019 cohort and 2018 cohort would combine and were
-      asked to create the IT Agile Center of Excellence to deliver valueable software products using Agile values and principles using the Scrum methodology.</b-col>
-        <b-col></b-col>
-      </b-row>
-      <b-row class="pb-5 pt-5">
-        <b-col></b-col>
-        <b-col cols="10">It has been a journey as I've transtioned into a software role but it's  been both challenging and rewarding at the same time. I've gained a set of new skills and keep growing and learning every day.
-       I've gotten to work on both successful and not so successful software products. Along the way I've picked up the ins and outs of working on a Agile Software Delivery Team. </b-col>
+        <b-col>
+          <p>Counter-Comms is a new and future proof Cybersecurity consulting firm built to deliver results and create value for your business, protect and defend you from digital cyber threats, and educate our partners, clients and you about Cybersecurity. Our motto here at Counter-Comms, "No business left behind."</p>
+        </b-col>
         <b-col></b-col>
       </b-row>
-       <b-row class="pb-5 pt-5">
+      <b-row class="pb-2 pt-2">
         <b-col></b-col>
-        <b-col cols="10"><h4 class="career">My Life</h4>Outside my career I value my family, time and close friends and peers. I'm married to my Wife Elizabeth and have a Dog named Yoda. He's the best and very spoiled. I work hard every day to provide for my family as 
-        I want to provide an even better future my kid(s). I enjoy getting outside here in beatufiul Colorado, exercise at the gym, reading up new concepts and theory, making money and best of all finding my hustle. </b-col>
-        <b-col></b-col>
-      </b-row>
-       <b-row class="pb-5 pt-5">
-        <b-col></b-col>
-        <b-col cols="10">I enjoy all kinds of music, wearing cowboy boots, drinking coffee and hanging out with the family and close friends. I'm starting this blog to share ideas, thoughts and content surrounding not only my career but to gain an audience and customer base for future growth. 
-          In addition to this I'm intertwining my business and conlsulting firm which I hope to expand into a product and services company in the near future.</b-col>
+        <b-col>
+          <p>
+            If you haven't heard, now a days, even the Meat (JBS Foods) we consume is being targeted by attackers or nefarious unethical black hat hackers who won't stop at anything to get what they want. From nation states to script kiddies and scammers, there is no slowing down for them. Even some of the robust enterprises can't keep up with 
+            company wide demand and protection so they have to learn to distribute protective mechanisms and education for their employees. You may ask yourself when will it end? What more can I do? How do I protect my assets? This is where Counter-Comms comes in.</p>
+        </b-col>
         <b-col></b-col>
       </b-row>
-       <b-row class="pb-5 pt-5">
+       <b-row class="pb-2 pt-2">
         <b-col></b-col>
-        <b-col cols="10"><h4 class="career">Road Ahead</h4>I am looking to start contributing more to the open-source space, starting new personal projects (hacker status), build and lead a business (aspiring entrepreneur), and growing both in my technical and business confidence.
-        Please feel free to reach out to me via email if you would like to collaborate on a project or if you have any questions and need some consultative work. If not go ahead and scroll to the bottom and give the Twitter a follow or reach out to me via the social sites below.</b-col>
+        <b-col>
+          <p>
+            We are building a world-class team of consultants both new and experienced that have a passion and education for Cybersecurity. Our team consists currenlty of a single full time Software Engineer working on Smarter-IT initiaitives, automation and building scalable, reliable, bug free Software products with a background in Cybersecurity Defense designated by the NSA and The Department of Homeland Security.
+            Counter-Comms hopes to expand the team as our growth continues both with clients and partners. Besides the currently listed service offerings we also can offer services in the following areas: DevOps, Networking, Linux and Windows, Automation, Software Devleopment and Engineering, Docker and Kubernetes, Cloud Technologeis - Azure. These additional services will evaluated on a case by case basis.
+            Please contact us for more information.
+          </p>
+          <form action="/contact"><input type="submit" value="Get in Contact" /></form>
+        </b-col>
         <b-col></b-col>
       </b-row>
        <b-row class="pb-5 pt-5">
         <b-col></b-col>
-        <b-col cols="10"></b-col>
+        <b-col></b-col>
         <b-col></b-col>
       </b-row>
        <b-row class="pb-5 pt-5">
         <b-col></b-col>
-        <b-col cols="10"></b-col>
+        <b-col></b-col>
         <b-col></b-col>
       </b-row>
-      <b-row class="pb-1 pt-5">
+       <b-row class="pb-5 pt-5">
         <b-col></b-col>
-        <b-col cols="12"></b-col>
+        <b-col>
+          <h1 class="heading">Our Team</h1>
+        </b-col>
+        <b-col></b-col>
+      </b-row>
+       <b-row class="pb-5 pt-5">
+        <b-col></b-col>
+        <b-col>
+          <div class="info-person-1">
+            <b-card
+              title="CEO and Lead Cybersecurity Consultant"
+              sub-title="Mario Zamora"
+              img-src="https://picsum.photos/600/300/?image=25"
+              img-alt="Image"
+              img-top
+              tag="article"
+              style="max-width: 30rem;"
+              class="mb-2"
+            >
+              <b-card-text>
+                I have a yorkie poodle named Yoda and I enjoy fishing.
+              </b-card-text>
+
+              <b-button href="/services" variant="primary">Services</b-button>
+            </b-card>
+          </div>
+        </b-col>
+        <b-col></b-col>
+      </b-row>
+      <b-row class="pt-5">
+        <b-col></b-col>
+        <b-col></b-col>
         <b-col></b-col>
       </b-row>
     </b-container>
@@ -74,6 +106,7 @@
 </template>
 
 <style>
+
 .about {
   background-color: #2475f0;
   color: white;
@@ -84,5 +117,29 @@
   background-color: #BE27CF; 
 }
 
+.info-person-1 {
+  color: #BE27CF;
+}
+
+.heading {
+  border-bottom-style: solid;
+}
+
+.logo-2 {
+  width: 500px;
+  height: 500px;
+
+}
+
+input[type=submit] {
+  background-color: #7435F2;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 100%;
+}
 
 </style>

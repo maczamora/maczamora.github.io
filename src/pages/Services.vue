@@ -10,6 +10,64 @@
         <b-col></b-col>
       </b-row>
   </b-container>
+  <b-container class="main-container">
+  <div class="service-types">
+    <b-row class="pb-5 pt-5">
+          <!-- <h4 class="career">Career Background</h4> -->
+          <b-col></b-col>
+          <b-col></b-col>
+          <b-col></b-col>
+      </b-row>
+      <b-row class="pb-5 pt-5">
+          <!-- <h4 class="career">Career Background</h4> -->
+          <b-col></b-col>
+          <b-col></b-col>
+          <b-col></b-col>
+      </b-row>
+      <b-row class="pb-5 pt-5">
+          <!-- <h4 class="career">Career Background</h4> -->
+          <b-col></b-col>
+          <b-col></b-col>
+          <b-col></b-col>
+      </b-row>
+      <b-row class="pb-5 pt-5">
+          <!-- <h4 class="career">Career Background</h4> -->
+          <b-col></b-col>
+          <b-col></b-col>
+          <b-col></b-col>
+      </b-row>
+      <b-row class="pb-5 pt-5">
+          <!-- <h4 class="career">Career Background</h4> -->
+          <b-col></b-col>
+          <b-col></b-col>
+          <b-col></b-col>
+      </b-row>
+      <b-row class="pb-5 pt-5">
+          <!-- <h4 class="career">Career Background</h4> -->
+          <b-col></b-col>
+          <b-col></b-col>
+          <b-col></b-col>
+      </b-row>
+      <b-row class="pb-5 pt-5">
+          <!-- <h4 class="career">Career Background</h4> -->
+          <b-col></b-col>
+          <b-col></b-col>
+          <b-col></b-col>
+      </b-row>
+      <b-row class="pb-5 pt-5">
+          <!-- <h4 class="career">Career Background</h4> -->
+          <b-col></b-col>
+          <b-col></b-col>
+          <b-col></b-col>
+      </b-row>
+      <b-row class="pb-5 pt-5">
+          <!-- <h4 class="career">Career Background</h4> -->
+          <b-col></b-col>
+          <b-col></b-col>
+          <b-col></b-col>
+      </b-row>
+  </div>
+</b-container>
     </div>
     <footer-layout></footer-layout>
   </body>

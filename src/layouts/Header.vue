@@ -8,7 +8,7 @@
       <strong>
         <g-link class="number" to="/">{{ $static.metadata.siteName }}</g-link>
       </strong>
-      <b-image class="logo" src="~/Capshure-Sec-v1.6.png" fluid alt="Responsive Logo"></b-image>
+      <!-- <b-image class="logo" src="~/Capshure-Sec-v1.6.png" fluid alt="Responsive Logo"></b-image> -->
       <b-nav pills class="nav">
         <b-nav-item active  class="nav__link" to="/">Home</b-nav-item>
         <b-nav-item active  class="nav__link" to="/about/">About US</b-nav-item>
