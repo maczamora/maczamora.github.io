@@ -2,6 +2,7 @@
 
   <div class="header-layout">
     <header class="header">
+      <b-container>
       <div>
         <b-row class="pb-5 pt-5"><g-image class="logo" src="~/Capshure-Sec-v1.6.png" alt="Responsive Logo"/></b-row>
         <g-image class="logo" src="~/Capshure-Sec-v1.6.png" alt="Responsive Logo"/>
