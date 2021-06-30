@@ -3,18 +3,21 @@
   <div class="header-layout">
     <header class="header">
       <div>
+        <b-row class="pb-5 pt-5"><g-image class="logo" src="~/Capshure-Sec-v1.6.png" alt="Responsive Logo"/></b-row>
         <g-image class="logo" src="~/Capshure-Sec-v1.6.png" alt="Responsive Logo"/>
       </div>
       <strong>
         <g-link class="number" to="/">{{ $static.metadata.siteName }}</g-link>
       </strong>
       <!-- <b-image class="logo" src="~/Capshure-Sec-v1.6.png" fluid alt="Responsive Logo"></b-image> -->
-      <b-nav pills class="nav">
+      <b-row class="pb-5 pt-5"> 
+        <b-nav pills class="nav">
         <b-nav-item active  class="nav__link" to="/">Home</b-nav-item>
         <b-nav-item active  class="nav__link" to="/about/">About US</b-nav-item>
         <b-nav-item active  class="nav__link" to="/services/">Services</b-nav-item>
         <b-nav-item active  class="nav__link" to="/contact/">Contact</b-nav-item >
       </b-nav>
+      </b-row>
     </header>
     <slot/>
   </div>

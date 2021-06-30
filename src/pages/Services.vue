@@ -14,9 +14,48 @@
   <div class="service-types">
     <b-row class="pb-5 pt-5">
           <!-- <h4 class="career">Career Background</h4> -->
-          <b-col></b-col>
-          <b-col></b-col>
-          <b-col></b-col>
+          <b-col>
+            <div class="info-person-1">
+            <b-card
+                title="DevOps"
+                img-alt="Image"
+                img-top
+                tag="article"
+                style="max-width: 30rem;"
+                class="mb-2">
+              <g-image src="~/testing.jpg" width="500"/>
+              <b-card-text></b-card-text>
+            </b-card>
+          </div>
+          </b-col>
+          <b-col>
+            <div class="info-person-1">
+              <b-card
+                title="DevOps"
+                img-alt="Image"
+                img-top
+                tag="article"
+                style="max-width: 30rem;"
+                class="mb-2">
+              <g-image src="~/testing.jpg" width="500"/>
+              <b-card-text></b-card-text>
+            </b-card>
+          </div>
+          </b-col>
+          <b-col>
+            <div class="info-person-1">
+            <b-card
+                title="DevOps"
+                img-alt="Image"
+                img-top
+                tag="article"
+                style="max-width: 30rem;"
+                class="mb-2">
+              <g-image src="~/testing.jpg" width="500"/>
+              <b-card-text></b-card-text>
+            </b-card>
+          </div>
+          </b-col>
       </b-row>
       <b-row class="pb-5 pt-5">
           <!-- <h4 class="career">Career Background</h4> -->

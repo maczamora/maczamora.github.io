@@ -21,7 +21,7 @@
             allow=autoplay 
             autoplay=1
             autopause=0
-            muted
+            muted=true
             loop=1
           ></b-embed>
         </div>

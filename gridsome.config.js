@@ -40,5 +40,5 @@ module.exports = {
   ],
   templates: {
     Post: '/blog/:title'
-  } 
+  }
 }

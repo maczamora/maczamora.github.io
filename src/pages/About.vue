@@ -28,7 +28,7 @@
       <b-row class="pb-2 pt-2">
         <b-col></b-col>
         <b-col>
-          <p>Counter-Comms is a new and future proof Cybersecurity consulting firm built to deliver results and create value for your business, protect and defend you from digital cyber threats, and educate our partners, clients and you about Cybersecurity. Our motto here at Counter-Comms, "No business left behind."</p>
+          <p>Counter-Comms is a new and future proof Cybersecurity DevSecOps consulting firm built to deliver results and create value for your business, protect and defend you from digital cyber threats, and educate our partners, clients and you about Cybersecurity. Our motto here at Counter-Comms, "No business left behind."</p>
         </b-col>
         <b-col></b-col>
       </b-row>
