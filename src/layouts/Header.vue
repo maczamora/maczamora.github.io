@@ -19,6 +19,7 @@
         <b-nav-item active  class="nav__link" to="/contact/">Contact</b-nav-item >
       </b-nav>
       </b-row>
+      </b-container>
     </header>
     <slot/>
   </div>

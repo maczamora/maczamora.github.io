@@ -23,7 +23,7 @@
                 tag="article"
                 style="max-width: 30rem;"
                 class="mb-2">
-              <g-image src="~/testing.jpg" width="500"/>
+              <g-image src="~/box.svg" width="150" height="150" position="center"/>
               <b-card-text></b-card-text>
             </b-card>
           </div>
@@ -31,13 +31,13 @@
           <b-col>
             <div class="info-person-1">
               <b-card
-                title="DevOps"
+                title="Basic Cybersecurity"
                 img-alt="Image"
                 img-top
                 tag="article"
                 style="max-width: 30rem;"
                 class="mb-2">
-              <g-image src="~/testing.jpg" width="500"/>
+              <g-image src="~/shield-lock-fill.svg" width="150" height="150" position="center"/>
               <b-card-text></b-card-text>
             </b-card>
           </div>
@@ -45,13 +45,13 @@
           <b-col>
             <div class="info-person-1">
             <b-card
-                title="DevOps"
+                title="Software Automation"
                 img-alt="Image"
                 img-top
                 tag="article"
                 style="max-width: 30rem;"
                 class="mb-2">
-              <g-image src="~/testing.jpg" width="500"/>
+              <g-image src="~/globe2.svg"  width="150" height="150" position="center"/>
               <b-card-text></b-card-text>
             </b-card>
           </div>
