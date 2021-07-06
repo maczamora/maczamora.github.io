@@ -2,7 +2,7 @@
 <body class="services-page">
   <header-layout>
   </header-layout>
-    <div class="services">
+  <div class="services">
   <b-container class="top-container">
       <b-row class="pb-5 pt-5">
         <b-col></b-col>
@@ -15,7 +15,7 @@
     <b-row class="pb-5 pt-5">
           <!-- <h4 class="career">Career Background</h4> -->
           <b-col>
-            <div class="info-person-1">
+            <div class="service">
             <b-card
                 title="DevSecOps"
                 img-alt="Image"
@@ -24,12 +24,12 @@
                 style="max-width: 30rem;"
                 class="mb-2">
               <g-image src="~/box.svg" width="150" height="150" position="center"/>
-              <b-card-text>Develop a framework for your team to increase technical delivery and team collaboration.</b-card-text>
+              <b-card-text class="info-card">Develop a framework for your team to increase technical delivery and team collaboration between Security, Operations, and Development. </b-card-text>
             </b-card>
           </div>
           </b-col>
           <b-col>
-            <div class="info-person-1">
+            <div class="service">
               <b-card
                 title="Basic Cybersecurity"
                 img-alt="Image"
@@ -38,12 +38,12 @@
                 style="max-width: 30rem;"
                 class="mb-2">
               <g-image src="~/shield-lock-fill.svg" width="150" height="150" position="center"/>
-              <b-card-text>Let's take it back to the basics of Cybersecurity and analyze and gaps or holes you have may in your defense.</b-card-text>
+              <b-card-text class="info-card">Let's take it back to the basics of Cybersecurity and analyze gaps or holes you have in your defense. This service includes a 1-hour educational seminar.</b-card-text>
             </b-card>
           </div>
           </b-col>
           <b-col>
-            <div class="info-person-1">
+            <div class="service">
             <b-card
                 title="Software Security"
                 img-alt="Image"
@@ -52,7 +52,7 @@
                 style="max-width: 30rem;"
                 class="mb-2">
               <g-image src="~/globe2.svg"  width="150" height="150" position="center"/>
-              <b-card-text>Let's take a look at securiing your software and making sure it is reliable and robust to handle security flaws.</b-card-text>
+              <b-card-text class="info-card">We start with a threat report to determine the level of security your software requires and provide security controls and suggestions at each step of the SDLC.</b-card-text>
             </b-card>
           </div>
           </b-col>
@@ -115,7 +115,7 @@
 <script>
 export default {
   metaInfo: {
-    title: 'Blog'
+    title: 'Services'
   }
 }
 </script>
@@ -138,5 +138,22 @@ query Posts {
 .services-page {
   background-color: #2475f0;
   color: #FFFFFF;
+}
+
+.jumbotron { 
+  text-align: center;
+  background-color: #BE27CF; 
+}
+
+.service {
+  color: #BE27CF;
+}
+
+.info-card {
+  margin: 50px 5px 5px 5px;
+}
+
+g-image {
+  margin: 50px 5px 5px 5px;
 }
 </style>

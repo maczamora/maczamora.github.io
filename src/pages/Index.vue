@@ -6,8 +6,7 @@
       <b-jumbotron header="Counter Comms" lead="Background in Cybersecurity Defense designated by the NSA and The Department of Homeland Security">
         <hr>
         <p>
-          For more information or if you would like to contact me please submit
-          a message from the contact page. Please feel free to explore the website and we hope you
+          For more information or if you would like to contact us, please submit a request from the contact page. Please feel free to explore our company and services as we hope you
           enjoy your time here.
         </p>
       </b-jumbotron>
@@ -29,17 +28,17 @@
     <b-container class="main-container">
       <b-row class="pb-4 pt-5">
         <b-col></b-col>
-        <b-col cols="10">Welcome! Thank you for visiting Counter Comms. As you begin your journey with our company we hope you find your time valueable. This company wants to go where no on else wants to, and that's why our clients choose us.</b-col>
+        <b-col cols="10">Welcome! Thank you for visiting Counter Comms. As you begin your journey with our company, we hope you find your time valuable. This company wants to go where no one else wants to, and that's why our clients choose us.</b-col>
         <b-col></b-col>
       </b-row>
       <b-row class="pb-4 pt-4">
         <b-col></b-col>
-        <b-col cols="10">Our Mission, provide reliable services and products while increasing the awareness to Cybersecurity through expert research in order to defend and protect our clients and their assets. Our moto at Counter-Comms, "No business left behind".</b-col>
+        <b-col cols="10">Our Mission, provide reliable services and products while increasing awareness of Cybersecurity through expert research to defend and protect our clients and their assets. Our motto at Counter-Comms, "No business left behind."</b-col>
         <b-col></b-col>
       </b-row>
       <b-row class="pb-4 pt-4">
         <b-col></b-col>
-        <b-col cols="10">Please take a look at some of our service offerings for more information. If you would like to get in contact we offer a free 1 hour virtual or in person consult. Due to COVID-19, virtual face to face consult is also available.</b-col>
+        <b-col cols="10">If you would like to contact us about a service, we offer a free 1-hour virtual or in-person consultation. Due to COVID-19, a virtual face-to-face consultation is also available to determine if a service fits your need.</b-col>
         <b-col></b-col>
       </b-row>
       <b-row class="pb-5 pt-5">
@@ -60,7 +59,7 @@
 <script>
 export default {
   metaInfo: {
-    title: "Mario Zamora",
+    title: "Home",
   },
     data() {
       return {

@@ -33,7 +33,7 @@
           <!-- <h4 class="career">Career Background</h4> -->
           <b-col></b-col>
           <b-col cols="6">
-              <p>Form submitted successfully, please wait 24-48 hours for a response. If you do not hear from our team within this time frame we are with busy assiting other clients or business partners. Thank you.</p>
+              <p>Form submitted successfully. Wait for 24 to 48 hours for a response. If you do not hear from our team, we are busy assisting other clients or business partners. We will do our best to get in contact with you. Thank you on behalf of Counter Comms</p>
           </b-col>
           <b-col></b-col>
       </b-row>
@@ -159,6 +159,9 @@ button {
 
 <script>
 export default {
+  metaInfo: {
+    title: 'Success'
+  },
   data() {
       return {
           formData: {}

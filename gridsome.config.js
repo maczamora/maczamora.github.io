@@ -6,7 +6,7 @@
 
 module.exports = {
   siteName: 'Counter Comms',
-  siteUrl: 'https://maczamora.github.io',
+  siteUrl: 'https://countercomms.com',
   siteDescription: 'Dedicated company website: Software Development and Engineering, DevOps, DevSecOps, Cyberecurity and anything and everything around Linux',
   transformers: {
     remark: {

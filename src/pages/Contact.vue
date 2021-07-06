@@ -206,6 +206,10 @@ button {
 
 <script>
 export default {
+  metaInfo: {
+    title: 'Contact'
+  },
+
   data() {
       return {
           formData: {}
