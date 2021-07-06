@@ -1,48 +1,171 @@
 <template>
 <body class="about-page">
 <header-layout>
-
 </header-layout>
-
-  <div class="top-container">
-      <h1>Who I am not who you imagine me to be</h1>
-  </div>
-
-  <div class="content-container">
-    <h4 class="career">Career Background</h4>
-    <p class="career-info">
-     I'm a CIS (Computer Information Systems) under-graduate from CSU-Pueblo 🐺 with an emphais in Cybersecurity.
-     During my time in college I worked as a Helpdesk Support Technician for a company called <a href="https://www.surfboard.com/">ARRIS</a>, and as a Network
-     Admin Assistant for the Network and Server Systems department on campus. I got to participate in a campus network upgrade where I installed Wi-Fi Access Points and Switches suppported by 
-     a company called <a href="https://www.extremenetworks.com/">Extreme Networks.</a> You can say that I had my fair share and time in the trenches. After graduation I was blessed to have 
-     received a job offer from <a href="https://www.extremenetworks.com/">Keysight Technologies</a> as an IT Associate part of the first and last IT Rapid Rotation Program.
-    </p>
-     <p class="career-info"> 
-      During this program I rotated between different areas within IT including Security Operations, Compliance, Infrastructure and Customer Applications. The initial plan of the program
-      was for those in the cohort to go they're separate ways into a specific area of interest with the IT organization. Those plans were changes, as the 2019 cohort and 2018 cohort were 
-      asked to create the IT Agile Center of Excellence and deliver valueable software products using Agile practices.
-     </p>
-     <p class="career-info"> 
-       It has been a journey as I've transtioned more into a software role and it has been both challenging and rewarding. I've gained a set of new skills and keep growing and learning every day.
-       I've gotten to work on both successful and not so successful software products and services and learn the ins and outs of working on a Agile Software Team. 
-     </p>
-     <h4 class="career">My Life</h4>
-      <p class="career-info">
-        Outside my career I value family and friends. I'm married to my Wife Elizabeth and have a Dog named Yoda. He's the best and very spoiled. I work hard every day to provide for my family as 
-        I want to provide an even better future my kid(s). I enjoy getting outside here in beatufiul Colorado, exercise at the gym, reading up new concepts and theory, making money and best of all 
-        finding my hustle. 
-      </p>
-      <p class="career-info">
-        I enjoy all kinds of music, versatile in my clothing options, and starting a new blog and website to share ideas, thoughts and content. 
-      </p>
-     <h4 class="career">Road Ahead</h4>
-      <p class="career-info">
-        I am looking to start contributing more to the open-source space, starting new personal projects (hacker status), build and lead a business (aspiring entrepreneur) and growing both in my technical and business confidence.
-      </p>
-      <p class="career-info">
-        Please feel free to reach out to me via email if you would like to collaborate on a project or if you have any questions and need some consultative work. If not go ahead and scroll to the bottom and give the Twitter a follow or reach out to me via the social sites below.
-      </p>
-  </div>
+<div class="about">
+  <b-container class="top-container">
+      <b-row class="pb-5 pt-5">
+        <b-col></b-col>
+        <b-col cols="10"><!--<h1>Meet the Team!</h1>--><b-jumbotron header="About Our Team" lead="Meet the experts at Counter Comms"></b-jumbotron></b-col>
+        <b-col></b-col>
+      </b-row>
+      <b-row class="pb-5 pt-5">
+        <b-col></b-col>
+        <b-col></b-col>
+        <b-col></b-col>
+      </b-row>
+  </b-container>
+<b-container fluid class="main-container">
+      <b-row class="pb-5 pt-5">
+        <!-- <h4 class="career">Career Background</h4> -->
+        <b-col></b-col>
+        <b-col>
+          <h1 class="heading">What is Counter Comms?</h1>
+        </b-col>
+        <b-col></b-col>
+      </b-row>
+      <b-row class="pb-2 pt-2">
+        <b-col></b-col>
+        <b-col>
+          <p>Counter-Comms is a Cybersecurity consulting firm built to deliver results, create value for your business, protect and defend you from digital cyber threats, and educate our partners, clients, and you about Cybersecurity. Our motto here at Counter-Comms, "No business left behind."</p>
+        </b-col>
+        <b-col></b-col>
+      </b-row>
+      <b-row class="pb-2 pt-2">
+        <b-col></b-col>
+        <b-col>
+          <p>
+            With the most recent ransomware events, black hat hackers are gaining speed and traction in supply chain attacks. They won't stop at anything to get what they want. From nation-states to script kiddies and scammers, there is no slowing down for the enemy. Even some of the most robust enterprises can't keep up with company-wide demand and protection, so they need to distribute protective mechanisms and education for their employees to protect themselves. You may ask yourself, when will it end? What more can I do? How do I protect my assets? That's where Counter-Comms comes in.</p>
+        </b-col>
+        <b-col></b-col>
+      </b-row>
+       <b-row class="pb-2 pt-2">
+        <b-col></b-col>
+        <b-col>
+          <p>
+            We are building a world-class team of consultants, both new and experienced, who have a passion and education for Cybersecurity, Privacy, and Threat Intelligence. Our team consists of a single full-time Software Engineer working on Smarter-IT initiatives, automation, and building scalable, reliable, bug-free Software with a background in Cybersecurity Defense designated by the NSA and The Department of Homeland Security. Counter-Comms hopes to expand the team as our growth continues both with clients and partners. Besides the currently listed service offerings, we also can offer services in the following areas: Networking, Automation, Docker and Kubernetes, Cloud Technologies - AWS or Azure. These will be evaulated on a case-by-case basis. Contact us for more information.
+          </p>
+          <form action="/contact"><input type="submit" value="Get in Contact" /></form>
+        </b-col>
+        <b-col></b-col>
+      </b-row>
+       <b-row class="pb-5 pt-5">
+        <b-col></b-col>
+        <b-col>
+          <h1 class="heading">The Brand</h1>
+        </b-col>
+        <b-col></b-col> 
+      </b-row>
+      <b-row class="pb-5 pt-5">
+        <b-col></b-col>
+        <b-col>
+          <g-image class="brand" src="~/Capshure-Sec-v1.6.png" alt="Responsive Logo"/>
+        </b-col>
+        <b-col></b-col> 
+      </b-row>
+       <b-row class="pb-5 pt-5">
+        <b-col></b-col>
+        <b-col>
+          The Counter-Comms logo represents the entire lifecycle of Cybersecurity. The red color represents offense, and the blue color represents defense. The white squares represent a keyboard and ethics that an ethical hacker must uphold. We like to call these sophisticated minds white-hat hackers. The gold represents the amount of money that is involved with this industry. Counter-Comms was built with the idea to have a recognized identity within the community, our clients, and our partners. We hope you enjoy learning about our brand and identity as we continue our work with you. 
+        </b-col>
+        <b-col></b-col>
+      </b-row>
+       <b-row class="pb-5 pt-5">
+        <b-col></b-col>
+        <b-col></b-col>
+        <b-col></b-col>
+      </b-row>
+       <b-row class="pb-5 pt-5">
+        <b-col></b-col>
+        <b-col>
+          <h1 class="heading">Our Team</h1>
+        </b-col>
+        <b-col></b-col>
+      </b-row>
+       <b-row class="pb-5 pt-5">
+        <b-col></b-col>
+        <b-col>
+          <div class="info-person-1">
+            <b-card
+              title="CEO and Lead Cybersecurity Consultant"
+              sub-title="Mario Zamora"
+              img-src="https://picsum.photos/600/300/?image=25"
+              img-alt="Image"
+              img-top
+              tag="article"
+              style="max-width: 30rem;"
+              class="mb-2"
+            >
+              <b-button href="/services" variant="primary">Services</b-button>
+            </b-card>
+          </div>
+        </b-col>
+        <b-col></b-col>
+      </b-row>
+      <b-row class="pt-5">
+        <b-col></b-col>
+        <b-col></b-col>
+        <b-col></b-col>
+      </b-row>
+    </b-container>
+</div>
 <footer-layout></footer-layout>
 </body>
 </template>
+
+<script>
+export default {
+  metaInfo: {
+    title: "About",
+  },
+    data() {
+      return {
+        imageProps: {}
+      }
+    }
+  };
+</script>
+
+<style>
+
+.about {
+  background-color: #2475f0;
+  color: white;
+}
+
+.jumbotron { 
+  text-align: center;
+  background-color: #BE27CF; 
+}
+
+.info-person-1 {
+  color: #BE27CF;
+}
+
+.heading {
+  border-bottom-style: solid;
+}
+
+.brand{
+  position: center; top: 0px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 0 auto;
+  display: block; 
+  width: 250px;
+  height: 250px;
+
+}
+
+input[type=submit] {
+  background-color: #7435F2;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 100%;
+}
+
+</style>

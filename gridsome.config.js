@@ -5,9 +5,9 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-  siteName: 'Mario Zamora Blog',
-  siteUrl: 'https://maczamora.github.io',
-  siteDescription: 'Dedicated blog to deliver content surrounding the following topics: Software Development and Engineering, DevOps, DevSecOps, Cyberecurity and anything and everything around Linux',
+  siteName: 'Counter Comms',
+  siteUrl: 'https://countercomms.com',
+  siteDescription: 'Dedicated company website: Software Development and Engineering, DevOps, DevSecOps, Cyberecurity and anything and everything around Linux',
   transformers: {
     remark: {
       externalLinksTarget: '_blank',
@@ -40,5 +40,5 @@ module.exports = {
   ],
   templates: {
     Post: '/blog/:title'
-  } 
+  }
 }
