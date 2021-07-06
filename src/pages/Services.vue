@@ -17,14 +17,14 @@
           <b-col>
             <div class="info-person-1">
             <b-card
-                title="DevOps"
+                title="DevSecOps"
                 img-alt="Image"
                 img-top
                 tag="article"
                 style="max-width: 30rem;"
                 class="mb-2">
               <g-image src="~/box.svg" width="150" height="150" position="center"/>
-              <b-card-text></b-card-text>
+              <b-card-text>Develop a framework for your team to increase technical delivery and team collaboration.</b-card-text>
             </b-card>
           </div>
           </b-col>
@@ -38,21 +38,21 @@
                 style="max-width: 30rem;"
                 class="mb-2">
               <g-image src="~/shield-lock-fill.svg" width="150" height="150" position="center"/>
-              <b-card-text></b-card-text>
+              <b-card-text>Let's take it back to the basics of Cybersecurity and analyze and gaps or holes you have may in your defense.</b-card-text>
             </b-card>
           </div>
           </b-col>
           <b-col>
             <div class="info-person-1">
             <b-card
-                title="Software Automation"
+                title="Software Security"
                 img-alt="Image"
                 img-top
                 tag="article"
                 style="max-width: 30rem;"
                 class="mb-2">
               <g-image src="~/globe2.svg"  width="150" height="150" position="center"/>
-              <b-card-text></b-card-text>
+              <b-card-text>Let's take a look at securiing your software and making sure it is reliable and robust to handle security flaws.</b-card-text>
             </b-card>
           </div>
           </b-col>

@@ -29,7 +29,7 @@
     <b-container class="main-container">
       <b-row class="pb-4 pt-5">
         <b-col></b-col>
-        <b-col cols="10">Welcome! Thank you for visiting Counter Comms. As you begin your journey into this company website and personal blog I hope you find your time valueable.</b-col>
+        <b-col cols="10">Welcome! Thank you for visiting Counter Comms. As you begin your journey with our company we hope you find your time valueable. This company wants to go where no on else wants to, and that's why our clients choose us.</b-col>
         <b-col></b-col>
       </b-row>
       <b-row class="pb-4 pt-4">
