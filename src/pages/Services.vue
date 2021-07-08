@@ -28,7 +28,7 @@
             </b-card>
           </div>
           </b-col>
-          <b-col>
+          <b-col >
             <div class="service">
               <b-card
                 title="Basic Cybersecurity"
@@ -42,7 +42,7 @@
             </b-card>
           </div>
           </b-col>
-          <b-col>
+          <b-col >
             <div class="service">
             <b-card
                 title="Software Security"
