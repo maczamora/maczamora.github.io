@@ -26,7 +26,7 @@
         </div>
     </b-container>
     <b-container class="main-container">
-      <b-row class="pb-4 pt-5">
+      <b-row class="pb-4 pt-4">
         <b-col></b-col>
         <b-col cols="10">Welcome! Thank you for visiting Counter Comms. As you begin your journey with our company, we hope you find your time valuable. This company wants to go where no one else wants to, and that's why our clients choose us.</b-col>
         <b-col></b-col>
@@ -78,7 +78,7 @@ export default {
 .jumbotron { 
   text-align: center;
   background-color: #BE27CF; 
-  color: #2B2129;
+  color: #FFFFFF;
   margin-bottom: 0;
 }
 

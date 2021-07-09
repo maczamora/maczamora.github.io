@@ -1,27 +1,23 @@
 <template>
-
   <div class="header-layout">
-    <header class="header">
-      <b-container>
-      <div>
-        <b-row class="pb-5 pt-5"><g-image class="logo" src="~/Capshure-Sec-v1.6.png" alt="Responsive Logo"/></b-row>
-        <g-image class="logo" src="~/Capshure-Sec-v1.6.png" alt="Responsive Logo"/>
-      </div>
-      <strong>
-        <g-link class="number" to="/">{{ $static.metadata.siteName }}</g-link>
-      </strong>
-      <!-- <b-image class="logo" src="~/Capshure-Sec-v1.6.png" fluid alt="Responsive Logo"></b-image> -->
-      <b-row class="pb-5 pt-5"> 
-        <b-nav pills class="nav">
-        <b-nav-item active  class="nav__link" to="/">Home</b-nav-item>
-        <b-nav-item active  class="nav__link" to="/about/">About US</b-nav-item>
-        <b-nav-item active  class="nav__link" to="/services/">Services</b-nav-item>
-        <b-nav-item active  class="nav__link" to="/contact/">Contact</b-nav-item >
-      </b-nav>
-      </b-row>
-      </b-container>
-    </header>
-    <slot/>
+    <slot>
+    <b-navbar class="header" toggleable="md" >
+       <b-navbar-brand href="/">
+       <img class="logo" src="https://i.ibb.co/pnqYJVk/Capshure-Sec-v1-6.png" alt="Logo">
+       </b-navbar-brand>
+        <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
+
+        <b-collapse id="nav-collapse"  is-nav>
+          <b-navbar-nav class="ml-auto">
+              <!-- <strong><g-link class="number" to="/">{{ $static.metadata.siteName }}</g-link></strong> -->
+              <strong><b-nav-item active  class="nav__link" to="/">Home</b-nav-item></strong>
+              <strong><b-nav-item active  class="nav__link" to="/about/">About US</b-nav-item></strong>
+              <strong><b-nav-item active  class="nav__link" to="/services/">Services</b-nav-item></strong>
+              <strong><b-nav-item active  class="nav__link" to="/contact/">Contact</b-nav-item></strong>
+          </b-navbar-nav>
+        </b-collapse>
+    </b-navbar>
+    </slot>
   </div>
 </template>
 
@@ -43,43 +39,35 @@ body {
 }
 
 .header {
-  display: flex;
-  justify-content: space-between;
-  max-width: 100%;
-  height: 125px;
   background-color: #ACBCBD;
+  color: #2B2129;
 } 
 
-.nav{
+/* .nav{
   position: absolute; top: 45px; right: 250px;
   background-repeat: no-repeat;
   background-size: contain;
   margin: 0 auto;
   display: block; 
-}
+} */
 
-.nav__link {
+/* .nav__link {
   margin-left: 10px;
   margin-right: 10px;
-}
+} */
 
-.number {
+/* .number {
   position: absolute; top: 55px; right: 700px;
   background-repeat: no-repeat;
   background-size: contain;
   margin: 0 auto;
   display: block; 
   color: #7435F2
-}
+} */
 
-.logo{
-position: absolute; top: 0px; left: 250px;
-background-repeat: no-repeat;
-background-size: contain;
-margin: 0 auto;
-display: block; 
+.logo{ 
 width: 130px;
-height: 125px; 
+height: 130px; 
 }
 
 
