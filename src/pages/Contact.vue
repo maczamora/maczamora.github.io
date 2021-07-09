@@ -46,11 +46,11 @@
                 </div>
                 <div>
                   <label for="email">Business Email:</label>
-                  <input type="email" name="bemail" v-model="formData.email" placeholder="example@email.com"/>
+                  <input type="email" name="bemail" v-model="formData.bemail" placeholder="example@email.com"/>
                 </div>
                 <div>
                   <label for="phone">Business Phone Number:</label>
-                  <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="XXX-XXX-XXXX">
+                  <input type="tel" id="phone" name="bphone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"  v-model="formData.bphone" placeholder="XXX-XXX-XXXX">
                 </div>
                 <div>
                   <label for="company">Company Name:</label>
